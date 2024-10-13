@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUPAM MONDAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .card-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .about-me img {
+            max-width: 100%;
+            height: 200px;
+            max-height: 200px; 
+            
+        }
+        .about-me {
+            margin-top: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center text-white d-flex align-items-center justify-content-center py-5" style="background: url('images/hero-bg.jpg') no-repeat center center; background-size: cover;">
+        <div class="container">
+            <h1 class="display-4 mb-3">Hi, I'm Rupam </h1> 
+            <p class="lead mb-4">A Web Developer with a passion for creating beautiful and functional websites.</p>
+        </div>
+    </header>
+
+    <section class="about-me py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="DP.jpg" class="img-fluid rounded-circle shadow-lg mb-4" alt="Your Photo">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="mb-4">About Me</h2>
+                    <p> Hello! I’m Rupam Mondal, a second-year B.Tech student at University of Enginnering and Management. My journey in programming started with a deep passion for technology and problem-solving. Over the past two years, I’ve gained substantial experience in web app security, which has been a significant focus of mine.
+                    Beyond security, I have a keen interest in the broader programming landscape. I love exploring new technologies, tackling challenging projects, and continuously expanding my knowledge. My goal is to leverage my skills and experiences to make meaningful contributions to the tech industry and to grow both personally and professionally.</p>
+    
+                    <p> Feel free to connect with me to discuss security practices, programming, or any exciting tech projects you’re working on!</p>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills bg-light py-5">
+        
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="Html.png" class="card-img-top" alt="HTML">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">HTML</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="css.jpg" class="card-img-top" alt="CSS">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">CSS</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="Js.jpg" class="card-img-top" alt="JavaScript">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">JavaScript</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="C.png" class="card-img-top" alt="C/C++">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">C / C++</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">67%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="contact.html" class="btn btn-primary btn-lg"> Hire Me </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Rupam Mondal . All rights reserved.</p>
+        <div>
+            <a href="https://www.linkedin.com/in/rupam-mondal-842583287/" class="btn btn-outline-primary mx-2" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Rupam27-Mondal" class="btn btn-outline-dark mx-2" target="_blank">GitHub</a>
+            
+        </div>
+</body>
+</html>
